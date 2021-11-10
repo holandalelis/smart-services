@@ -1,0 +1,67 @@
+create table  Agendamento (
+id BIGINT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+dataServico date ,
+horarioServico time,
+assistencia VARCHAR(50),
+equipamento  VARCHAR(50)
+);
+
+
+insert into agendamento (dataServico, horarioServico, assistencia)
+values
+("2021-11-01", "09:00:00", "Loja Shopping"),
+("2021-11-01", "09:30:00", "Loja Shopping"),
+("2021-11-01", "10:00:00", "Loja Shopping"),
+("2021-11-01", "10:30:00", "Loja Shopping"),
+("2021-11-01", "11:00:00", "Loja Shopping"),
+("2021-11-01", "11:30:00", "Loja Shopping"),
+("2021-11-01", "14:00:00", "Loja Shopping"),
+("2021-11-01", "14:30:00", "Loja Shopping"),
+("2021-11-01", "15:00:00", "Loja Shopping"),
+("2021-11-01", "15:30:00", "Loja Shopping"),
+("2021-11-01", "16:00:00", "Loja Shopping"),
+("2021-11-01", "16:30:00", "Loja Shopping"),
+("2021-11-01", "17:00:00", "Loja Shopping"),
+
+("2021-11-01", "09:00:00", "Loja Centro"),
+("2021-11-01", "09:30:00", "Loja Centro"),
+("2021-11-01", "10:00:00", "Loja Centro"),
+("2021-11-01", "10:30:00", "Loja Centro"),
+("2021-11-01", "11:00:00", "Loja Centro"),
+("2021-11-01", "11:30:00", "Loja Centro"),
+("2021-11-01", "14:00:00", "Loja Centro"),
+("2021-11-01", "14:30:00", "Loja Centro"),
+("2021-11-01", "15:00:00", "Loja Centro"),
+("2021-11-01", "15:30:00", "Loja Centro"),
+("2021-11-01", "16:00:00", "Loja Centro"),
+("2021-11-01", "16:30:00", "Loja Centro"),
+("2021-11-01", "17:00:00", "Loja Centro"),
+
+("2021-11-01", "09:00:00", "Loja Empresarial"),
+("2021-11-01", "09:30:00", "Loja Empresarial"),
+("2021-11-01", "10:00:00", "Loja Empresarial"),
+("2021-11-01", "10:30:00", "Loja Empresarial"),
+("2021-11-01", "11:00:00", "Loja Empresarial"),
+("2021-11-01", "11:30:00", "Loja Empresarial"),
+("2021-11-01", "14:00:00", "Loja Empresarial"),
+("2021-11-01", "14:30:00", "Loja Empresarial"),
+("2021-11-01", "15:00:00", "Loja Empresarial"),
+("2021-11-01", "15:30:00", "Loja Empresarial"),
+("2021-11-01", "16:00:00", "Loja Empresarial"),
+("2021-11-01", "16:30:00", "Loja Empresarial"),
+("2021-11-01", "17:00:00", "Loja Empresarial"),
+
+("2021-11-01", "09:00:00", "Loja Litoral"),
+("2021-11-01", "09:30:00", "Loja Litoral"),
+("2021-11-01", "10:00:00", "Loja Litoral"),
+("2021-11-01", "10:30:00", "Loja Litoral"),
+("2021-11-01", "11:00:00", "Loja Litoral"),
+("2021-11-01", "11:30:00", "Loja Litoral"),
+("2021-11-01", "14:00:00", "Loja Litoral"),
+("2021-11-01", "14:30:00", "Loja Litoral"),
+("2021-11-01", "15:00:00", "Loja Litoral"),
+("2021-11-01", "15:30:00", "Loja Litoral"),
+("2021-11-01", "16:00:00", "Loja Litoral"),
+("2021-11-01", "16:30:00", "Loja Litoral"),
+("2021-11-01", "17:00:00", "Loja Litoral");
+
