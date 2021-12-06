@@ -28,7 +28,7 @@ Este projeto foi criado com o objetivo de desenvolver uma API em que os serviço
 Baixar o repositório:
 
 ```bash
-git clone https://github.com/RogUnique/smart-services
+git clone https://github.com/holandalelis/smart-services.git
 ```
 <br/>
 
